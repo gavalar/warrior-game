@@ -1,0 +1,19 @@
+<h1>Fight Complete</h1>
+<div id="vidi-printer">
+    <ul>
+    <?php $class = 'odd'; 
+    foreach(Combat::getInstance()->getActionLog() as $turn) : ?>
+        <li class="<?php echo $class; ?>"><?php echo $turn; ?></li>
+        <?php if($class == 'odd') { $class = 'even'; } else { $class = 'odd'; } ?>
+    <?php endforeach; ?>
+    </ul>
+</div>
+<script>
+    $(document).ready(function(){
+        var warriors = new Array();
+<?php foreach(Combat::getInstance()->getWarriors() as $key => $warrior) : ?>
+        warriors[<?php echo $key; ?>] = '<?php echo $warrior->getName(); ?>';
+<?php endforeach; ?>
+        Warrior.highlightWarriors(warriors);
+    });
+</script>

@@ -1,0 +1,139 @@
+html {
+    height:100%;
+    background:#999;
+}
+
+body {
+    min-height:500px;
+    width:900px;
+    margin:10px auto;
+    border:1px solid #D0D0D0;
+    background:#FFF;
+    padding:5px 5px 30px 5px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    -moz-box-shadow:0 0 2px #A1A3A1;
+    -webkit-box-shadow:0 0 2px #A1A3A1; 
+    box-shadow:0 0 2px #A1A3A1;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+form {
+    margin:10px auto;
+    border:1px solid #D0D0D0;
+    background:#FFF;
+    padding:5px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF', endColorstr='#D0D0D0');
+    background:-webkit-gradient(linear, left top, left bottom, from(#FFF), to(#D0D0D0));
+    background:-moz-linear-gradient(top,  #FFF,  #D0D0D0);
+}
+
+form div {
+    padding-bottom:5px;
+}
+
+input, textarea, button {
+    border:1px solid #D0D0D0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    padding:2px;
+    -moz-box-shadow:0 0 2px #A1A3A1;
+    -webkit-box-shadow:0 0 2px #A1A3A1; 
+    box-shadow:0 0 2px #A1A3A1;
+}
+#warning {
+    background-color:#CCDC00;
+    padding:5px;
+    margin-bottom:10px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    -moz-box-shadow:5px 5px 5px #888;
+    -webkit-box-shadow:5px 5px 5px #888;
+    box-shadow:5px 5px 5px #888;
+    text-align:center;
+}
+#vidi-printer {
+    width:870px;
+    padding:5px;
+    border:1px solid #D0D0D0;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    -moz-box-shadow:10px 10px 5px #888;
+    -webkit-box-shadow:10px 10px 5px #888;
+    box-shadow:10px 10px 5px #888;
+}
+#vidi-printer li {
+    padding:5px;    
+    font-size:11px;
+    border:1px solid #D0D0D0;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    margin-bottom:2px;
+}
+li.even {
+    background:#D8D8D8;
+}
+li span {
+    color:#C75B12;
+    font-weight:bold;
+}
+strong {
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    padding:2px 5px;
+    font-weight:normal;
+}
+strong.player0 {
+    background-color:teal;
+    color:white;
+}
+strong.player1 {
+    background-color:red;
+    color:white;
+}
+strong.player2 {
+    background-color:blue;
+    color:white;
+}
+strong.player2 {
+    background-color:green;
+    color:white;
+}
+strong.player3 {
+    background-color:yellow;
+    color:black;
+}
+strong.player4 {
+    background-color:lime;
+    color:black;
+}
+strong.player5 {
+    background-color:purple;
+    color:white;
+}
+strong.player6 {
+    background-color:olive;
+    color:white;
+}
+strong.player7 {
+    background-color:maroon;
+    color:white;
+}
+strong.player8 {
+    background-color:navy;
+    color:white;
+}
+

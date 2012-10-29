@@ -1,0 +1,8 @@
+<h1>Warriors in Combat</h1>
+<p>Please enter your warrior name (minimum of 2) and select a warrior type or let the system choose at random</p>
+<form method="post" action="" id="warrio-form">
+    <input type="hidden" id="special" name="special" value="<?php echo Generic::getXsrf(); ?>" />
+    <div><strong class="player0">Player 1:</strong> <input type="text" id="name-1" name="name[1]" value="" /><select id="warrior-1" name="warrior[1]"><option value="x">Random</option><option value="1">Ninja</option><option value="2">Samurai</option><option value="3">Brawler</option></select></div>
+    <div><strong class="player1">Player 2:</strong> <input type="text" id="name-2" name="name[2]" value="" /><select id="warrior-2" name="warrior[2]"><option value="x">Random</option><option value="1">Ninja</option><option value="2">Samurai</option><option value="3">Brawler</option></select></div>
+    <button type="button" id="add_more">Add more players</button>   <input type="submit" id="submit" name="submit" value="Start the fight" />
+</form> 
